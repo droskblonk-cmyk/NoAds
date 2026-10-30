@@ -1,0 +1,9 @@
+<resources>
+    <string name="coins">Coins: %d</string>
+    <string name="hint">Each button loads one of Google\'s test ads and shows it. With NoAds active the ad never appears and the reward arrives right away.</string>
+    <string name="rewarded">Rewarded ad (+coins)</string>
+    <string name="rewarded_interstitial">Rewarded interstitial (+coins)</string>
+    <string name="interstitial">Interstitial</string>
+    <string name="app_open">App open</string>
+    <string name="banner">Banner</string>
+</resources>

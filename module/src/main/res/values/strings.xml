@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NoAds</string>
+    <string name="xposed_description">Ends rewarded ads the moment they start and still gives you the reward. Also skips interstitial and app-open ads and hides banners.</string>
+
+    <string name="status_active">Active</string>
+    <string name="status_active_summary">Enabled in LSPosed. Changes apply right away, no need to restart your games.</string>
+    <string name="status_inactive">Not active</string>
+    <string name="status_inactive_summary">Enable NoAds in the LSPosed manager and pick your games, then force stop and reopen them.</string>
+
+    <string name="category_ads">Skip these ads</string>
+    <string name="rewarded_title">Rewarded ads</string>
+    <string name="rewarded_summary">End the ad the moment it starts and still get the reward</string>
+    <string name="interstitial_title">Interstitial ads</string>
+    <string name="interstitial_summary">Close full-screen ads between levels instantly</string>
+    <string name="app_open_title">App open ads</string>
+    <string name="app_open_summary">Skip the ad shown while an app starts</string>
+    <string name="banner_title">Banners</string>
+    <string name="banner_summary">Never load banner ads and hide their space</string>
+
+    <string name="category_about">About</string>
+    <string name="principles_title">Fair play</string>
+    <string name="principles_summary">The ad is never shown, so no advertiser pays for it. NoAds never reports fake impressions, clicks or revenue, and never bypasses anti-cheat.</string>
+    <string name="limits_title">Limits</string>
+    <string name="limits_summary">Games that check rewards on their own servers (most online games) can\'t be helped. Skipping ads may break a game\'s terms of service, and online games may ban you for it.</string>
+    <string name="verbose_log_title">Detailed logging</string>
+    <string name="verbose_log_summary">Log every blocked banner and hooked class to logcat and the LSPosed log, for bug reports</string>
+    <string name="source_title">Source code</string>
+    <string name="source_url" translatable="false">https://github.com/sevincfurkan/NoAds</string>
+</resources>

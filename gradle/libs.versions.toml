@@ -1,0 +1,31 @@
+[versions]
+agp = "9.5.0"
+xposed = "82"
+appcompat = "1.8.0"
+preference = "1.2.1"
+material = "1.14.0"
+junit = "4.13.2"
+asm = "9.11.1"
+# Ad SDKs. The sample app runs AdMob; the module's hooks are checked against all of them (SdkContractTest).
+admob = "25.5.0"
+applovin = "13.7.0"
+unityAds = "4.21.0"
+levelplay = "9.7.0"
+# The last LevelPlay with the static IronSource API, which many published games still use.
+levelplayLegacy = "8.12.0"
+
+[libraries]
+xposed-api = { module = "de.robv.android.xposed:api", version.ref = "xposed" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-preference = { module = "androidx.preference:preference-ktx", version.ref = "preference" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+junit = { module = "junit:junit", version.ref = "junit" }
+asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
+sdk-admob = { module = "com.google.android.gms:play-services-ads", version.ref = "admob" }
+sdk-applovin = { module = "com.applovin:applovin-sdk", version.ref = "applovin" }
+sdk-unityads = { module = "com.unity3d.ads:unity-ads", version.ref = "unityAds" }
+sdk-levelplay = { module = "com.unity3d.ads-mediation:mediation-sdk", version.ref = "levelplay" }
+sdk-levelplay-legacy = { module = "com.unity3d.ads-mediation:mediation-sdk", version.ref = "levelplayLegacy" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

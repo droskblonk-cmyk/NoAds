@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keys match AdType.key and Settings.KEY_VERBOSE_LOG, which the hooks read inside each game. -->
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:iconSpaceReserved="false"
+        app:key="status"
+        app:selectable="false" />
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/category_ads">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="rewarded"
+            app:summary="@string/rewarded_summary"
+            app:title="@string/rewarded_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="interstitial"
+            app:summary="@string/interstitial_summary"
+            app:title="@string/interstitial_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="app_open"
+            app:summary="@string/app_open_summary"
+            app:title="@string/app_open_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"
+            app:key="banner"
+            app:summary="@string/banner_summary"
+            app:title="@string/banner_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/category_about">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:selectable="false"
+            app:summary="@string/principles_summary"
+            app:title="@string/principles_title" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:selectable="false"
+            app:summary="@string/limits_summary"
+            app:title="@string/limits_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"
+            app:key="verbose_log"
+            app:summary="@string/verbose_log_summary"
+            app:title="@string/verbose_log_title" />
+
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="source"
+            app:summary="@string/source_url"
+            app:title="@string/source_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="xposed_description">Ödüllü reklamları başladığı anda bitirir ve ödülü yine verir. Geçiş ve açılış reklamlarını atlar, banner\'ları gizler.</string>
+
+    <string name="status_active">Aktif</string>
+    <string name="status_active_summary">LSPosed\'de etkin. Değişiklikler hemen geçerli olur, oyunları yeniden başlatmana gerek yok.</string>
+    <string name="status_inactive">Aktif değil</string>
+    <string name="status_inactive_summary">LSPosed yöneticisinde NoAds\'ı etkinleştirip oyunlarını seç, sonra oyunları durdurup yeniden aç.</string>
+
+    <string name="category_ads">Bu reklamları atla</string>
+    <string name="rewarded_title">Ödüllü reklamlar</string>
+    <string name="rewarded_summary">Reklam başladığı anda bitsin, ödül yine gelsin</string>
+    <string name="interstitial_title">Geçiş reklamları</string>
+    <string name="interstitial_summary">Bölüm aralarındaki tam ekran reklamlar anında kapansın</string>
+    <string name="app_open_title">Açılış reklamları</string>
+    <string name="app_open_summary">Uygulama açılırken çıkan reklamı atla</string>
+    <string name="banner_title">Banner\'lar</string>
+    <string name="banner_summary">Banner reklamlar hiç yüklenmesin, yerleri gizlensin</string>
+
+    <string name="category_about">Hakkında</string>
+    <string name="principles_title">Adil oyun</string>
+    <string name="principles_summary">Reklam hiç gösterilmez, bu yüzden hiçbir reklamveren ücret ödemez. NoAds asla sahte gösterim, tıklama ya da gelir bildirmez ve anti-cheat atlatmaz.</string>
+    <string name="limits_title">Sınırlar</string>
+    <string name="limits_summary">Ödülü kendi sunucusunda doğrulayan oyunlarda (çoğu online oyun) işe yaramaz. Reklam atlamak oyunun kullanım şartlarına aykırı olabilir; online oyunlar ban verebilir.</string>
+    <string name="verbose_log_title">Ayrıntılı log</string>
+    <string name="verbose_log_summary">Engellenen her banner\'ı ve hook\'lanan sınıfı logcat\'e ve LSPosed loguna yaz (hata bildirimi için)</string>
+    <string name="source_title">Kaynak kodu</string>
+</resources>
