@@ -1,6 +1,6 @@
 # NoAds
 
-**Rewarded ads end the moment they start, and you still get the reward.**
+**Rewarded ads end the moment they start, and you still get the reward.** 
 
 [Türkçe](README.tr.md)
 
